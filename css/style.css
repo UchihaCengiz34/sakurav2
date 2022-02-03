@@ -38,10 +38,11 @@ h2{
     bottom: 0;
     right: 0;
     left: 0;
-    padding: 1rem;
+    padding: 5px 10px;
     text-align: center;
-    background: palevioletred;
-    font-size: 19px;
+    background: rgb(224, 70, 122);
+    color: rgb(148, 22, 148);
+    font-size: 24px;
 }
 h1{
     padding: 90px;
@@ -49,4 +50,7 @@ h1{
 }
 h1:hover{
     color: rgb(194, 106, 194);
+}
+footer:hover{
+    color: purple;
 }
