@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("1527165.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: pink;
+    color: rgb(177, 51, 72);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgb(194, 106, 194);
+    transition: 0.8s;
+}
+h2{
+    transition: 0.8s;
+    color: rgb(194, 106, 194);
+    text-shadow: 2px 2px 5px plum;
+}
+a:hover{
+    background-color: purple;
+}
+h2{
+    color: rgb(206, 83, 206);
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background: palevioletred;
+    font-size: 19px;
+}
+h1{
+    padding: 90px;
+    transition: 00.8s;
+}
+h1:hover{
+    color: rgb(194, 106, 194);
+}
